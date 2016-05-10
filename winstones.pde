@@ -1,6 +1,6 @@
-// БИБЛИОТЕКА
+width = 400;
+height = 400;
 
-// Winstone
 var drawWinstone = function (x, y, faceSize) {
     var mouthSize = 1/2 * faceSize;
     var eyeSize = 2/15 * faceSize;
@@ -18,4 +18,6 @@ var drawWinstone = function (x, y, faceSize) {
     fill(252, 65, 65);
     ellipse(x + 1/6 * faceSize, y + 2/15 * faceSize, mouthSize, mouthSize);
 };
-//----------------------------------------------------------
+
+drawWinstone(250, 300, 50);
+drawWinstone(100, 300, 176);
